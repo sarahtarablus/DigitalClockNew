@@ -42,9 +42,9 @@ function newTime(){
     let hours = date.getHours();
     let hourAmPm = hours >= 12 ? 'PM' : 'AM';
     let hour = date.getHours() % 12;
-    if(hour == '0'){
+     if(hour == '0'){
       hour = '12';
-    }
+     }
     let min = date.getMinutes();
     let sec = date.getSeconds();
  
